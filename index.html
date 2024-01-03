@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="">
+       <div>
+        <label for="maso">Mã số SV</label>
+        <input type="text" id="maso">
+       </div>
+       <div>
+        <label for="tensv">Họ tên:</label>
+        <input type="text" id="tensv">
+       </div>
+       <div>
+        <label for="dtb">ĐTB</label>
+        <input type="number" id="dtb">
+       </div>
+       <div>
+        <label for="gioitinh">Giới tính</label>
+        <input type="radio" id="gioitinh" name="gt" checked>Nam
+        <input type="radio" id="gioitinh" name="gt">Nữ
+       </div>
+       <button id="btn">Thêm</button><br>
+       <button id="btn-find">Tìm theo tên sinh viên</button>
+
+    </form>
+    <table>
+        <thead>
+            <tr>
+                <td>Mã số SV</td>
+                <td>Tên</td>
+                <td>ĐTB</td>
+                <td>Giới tính</td>
+            </tr>
+        </thead>
+        <tbody id="info">
+
+        </tbody>
+    </table>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
